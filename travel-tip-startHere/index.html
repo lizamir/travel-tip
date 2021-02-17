@@ -8,13 +8,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/helpers.css">
-    <title>ES6</title>
+    <title>Travel Tip</title>
 </head>
 
 <body>
     <main>
         <header class="main-header main-container flex align-center space-between">
-            <h1 class="logo ">Wikitube</h1>
+            <h1 class="logo ">Travel Tip</h1>
             <div class="location-container flex align-center justify-center">
                 <input class="location-search" type="search">
                 <button class="go">Go</button>
@@ -27,9 +27,25 @@
             <button class="copy">copy location</button>
         </div>
 
-        <div id="map" style="width: 100%; height: 400px;"></div>
-        <button class="btn">Click Me</button>
+        <div class="map-container main-container">
+        <div id="map" style="width: 50%; height: 400px;"></div>
+    </div>
+        <button class="btn-get-location">Click Me</button>
 
+        <table class="table" border="1">
+            <thead>
+    
+          <tr>
+              <th>Latitude</th>
+              <th>longitude</th>
+              <th>Place</h>
+                <th colspan="2">Actions</th>
+          </tr>
+        </thead>
+        <tbody class="table-input"></tbody> 
+        </table>
+
+        <script src="js/lib/axios.js"></script>
         <script type="module" src="js/map-controller.js"></script>
     </main>
 </body>
