@@ -1,0 +1,51 @@
+/* helpers */
+
+.clean-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.display {
+    display: block;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.flex-columns {
+    flex-direction: column
+}
+
+.display-grid {
+    display: grid;
+}

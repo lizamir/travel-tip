@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(255, 144, 116);
+}
+
+html {
+    font-family: 'Alegreya', serif
+}
+
+.main-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-family: 'Alegreya', serif;
+    font-size: 4rem;
+    margin-left: 30px;
+}
